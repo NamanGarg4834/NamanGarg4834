@@ -21,10 +21,6 @@ h2,h3{
     /* background-image: "CSS/mount.webp"; */
 }
 
-h1,h2 ,h3 ,h4{
-    text-align: center;
-}
-
 .profile_pic{
     width: 150px;
     border-radius: 50%;
@@ -47,6 +43,7 @@ h1,h2{
 
 h3{
     color: #11999E;
+    font-weight: bolder;
 }
 
 hr{
@@ -57,6 +54,7 @@ hr{
     border-width: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
+    clear: right;
 }
 
 .top-cloud{
@@ -72,13 +70,14 @@ hr{
 
 }
 p{
-    color: #EAF6F6;
+    color: #40514E;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .bottom-c{
     background-color: #0AA1DD;
-    
+    padding-top: 20px;
 }
 
 a{
@@ -88,10 +87,32 @@ a{
 }
 
 .img1{
-    width: 150px;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.skill1{
+    clear: left;
+    padding-top: 30px;
+}
+
+.img2{
+    width :25%;
+    float: right;
+    padding-left: 30px ;
 }
 
 h2{
     font-size:40px ;
-    font-weight: normal;
+    font-weight: bold;
+}
+/* Important */
+.middle-c{
+    width: 50%;
+    margin: 100px auto 100px;
+}
+
+.skill{
+    text-align: left ;
+    line-height: 2;
 }
