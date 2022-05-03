@@ -5,10 +5,25 @@ td{
     width: 150px;
     border-radius: 50px;
 }
+.main1{
+    background-color: #F8ECD1;
+}
 h2 ,h3 ,h4{
     text-align: center;
 }
-
+table{
+    text-align: center;
+    align-items: center;
+}
+.profile{
+    width: 150px;
+    border-radius: 50%;
+}
+.bgimage{
+    max-width: fit-content;
+    align-items: center;
+    align-self: center;
+}
 h2{
     color: rgb(30, 131, 108);
     font-family: brandon-grotesque, HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
